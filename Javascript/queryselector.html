@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First JavaScript Page</title>
+        <script>
+            function press(){
+                let heading=document.querySelector('h1')
+                if(heading.innerHTML === "hello!!"){
+                    heading.innerHTML = "Byee!!"
+                }else{
+                    heading .innerHTML= "hello!!"
+                }
+              
+            }
+        </script>
+    </head>
+    <body>
+        <h1>hello!!</h1>
+        <button onclick="press()">Click Here</button>
+    </body>
+</html>
